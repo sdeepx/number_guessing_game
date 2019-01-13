@@ -7,7 +7,7 @@ guess_no = 0
 guess_li = 6
 out_of_guess = False
 print(" ")
-print("Enter A Guess Number Between 1 - 15 : \n")
+print("Enter A Guess Number Between 1 - 15 -- \n")
 while guess_no != secret_no and not(out_of_guess):
     if guess_co < guess_li:
 
