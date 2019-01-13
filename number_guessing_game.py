@@ -1,13 +1,13 @@
 import random
 
-secret_no = random.randint(1,15)
+secret_no = random.randint(1,30)
 
 guess_co = 0
 guess_no = 0
 guess_li = 6
 out_of_guess = False
 print(" ")
-print("Enter A Guess Number Between 1 - 15 -- \n")
+print("Enter A Guess Number Between 1 - 30 -- \n")
 while guess_no != secret_no and not(out_of_guess):
     if guess_co < guess_li:
 
@@ -15,8 +15,8 @@ while guess_no != secret_no and not(out_of_guess):
             guess_no = int(input("Enter your guess number : "))
             print(" ")
 
-            if guess_no < 1 or (guess_no > 15):
-                print("[+] you have to enter a number between 1 and 15 \n")
+            if guess_no < 1 or (guess_no > 30):
+                print("[+] you have to enter a number between 1 and 30 \n")
             else:
                 if secret_no > guess_no:
                     print("Your guess is too low.")
